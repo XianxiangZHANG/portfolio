@@ -73,20 +73,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "GCP",
-      fontAwesomeClassname: "fa-brands fa-google"
+      fontAwesomeClassname: "fab fa-google"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "microsoft office",
+      fontAwesomeClassname: "fab fa-microsoft"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -99,7 +103,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Polytech Nantes",
-      logo: require("./assets/images/logo_polytech.png"),
+      logo: require("./assets/images/logo_polytech.jpeg"),
       subHeader: "Computer Science Engineer Degree",
       duration: "September 2022 - September 2024",
       desc: "Took courses about Machine Learning, Database, etc.Participated in multiple projects and two internships",
@@ -126,11 +130,11 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -176,38 +180,50 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME PROJECTS I EXPERIRNCED IN POLYTECH NANTES",
+  title: "Projects",
+  subtitle: "SOME PROJECTS I EXPERIRNCED IN UNIVERSITY",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      
+      projectName: "Leibniz Manuscript Detection and Segmentation",
+      projectDesc: "09/2023 - 02/2024 - Polytech Nantes, France. Our project, conducted by the IPI team at LS2N in collaboration with the SPHERE Paris Diderot laboratory, aims to detect and segment mathematical expressions in Leibniz's manuscripts. We utilize a deep convolutional neural network tailored for this task. Due to limited original data, we employed data augmentation techniques, generating 300 artificial images to enhance our dataset. Our model, trained on these images, achieved an average precision of 60% on a separate evaluation corpus. This research highlights the technical challenges in analyzing ancient manuscripts, especially for mathematical content.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Source code",
+          url: "https://github.com/XianxiangZHANG/Leibniz-Manuscript-Detection-Segmentation"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      
+      projectName: "The digital logbook for DIVANUM",
+      projectDesc: "09/2022 - 05/2023 - Polytech Nantes, France. The goal of this project is to design and implement a health data recording website for senior citizens. As a front-end developer and server administrator, I primarily worked with Angular, HTML, and CSS to implement the front-end display of various interfaces. Additionally, I configured Google Cloud Platform to create virtual machine instances and set up storage solutions.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Source code",
+          url: "https://github.com/XianxiangZHANG/divanum"
         }
       ]
-    }
+    },
+    {
+      
+      projectName: "Environmental protection publicity website",
+      projectDesc: "01/2023 - 03/2023 - Polytech Nantes, France. The main purpose of this project is to promote environmental protection, especially the theme of carbon cycle. We worked with students from the art school to complete this project. They designed a beautiful interface, and we implemented these designs into a fully functional website using the Vue framework. Through this collaboration, we not only ensured the visual appeal of the website, but also ensured the efficiency and stability of its technical implementation, providing a powerful platform for the promotion of environmental protection.",
+      footerLink: [
+        {
+          name: "Source code",
+          url: "https://github.com/XianxiangZHANG/Hyblab2023/tree/main/carbone"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
