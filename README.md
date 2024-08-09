@@ -22,3 +22,10 @@ yarn install
 # Start a local dev server
 yarn start
 ```
+### How to build the project
+
+```bash
+#build
+yarn build
+```
+Then move the folder named "build" to the branch "page".
