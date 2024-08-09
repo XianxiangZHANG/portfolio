@@ -96,28 +96,6 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Polytech Nantes",
-      logo: require("./assets/images/logo_polytech.jpeg"),
-      subHeader: "Computer Science Engineer Degree",
-      duration: "September 2022 - September 2024",
-      desc: "Took courses about Machine Learning, Database, etc.Participated in multiple projects and two internships",
-      
-    },
-    {
-      schoolName: "Ocean University of China",
-      logo: require("./assets/images/logo_ouc.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2018 - July 2022",
-      desc: "Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    }
-  ]
-};
 
 // Your top 3 proficient stacks/tech experience
 
@@ -173,6 +151,31 @@ const workExperiences = {
     },
   ]
 };
+
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Polytech Nantes",
+      logo: require("./assets/images/logo_polytech.jpeg"),
+      subHeader: "Computer Science Engineer Degree",
+      duration: "September 2022 - September 2024",
+      desc: "Took courses about Machine Learning, Database, etc.Participated in multiple projects and two internships",
+      
+    },
+    {
+      schoolName: "Ocean University of China",
+      logo: require("./assets/images/logo_ouc.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2018 - July 2022",
+      desc: "Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    }
+  ]
+};
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
