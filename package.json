@@ -1,5 +1,5 @@
 {
-  "homepage": "https://xianxiangzhang.github.io",
+  "homepage": "https://xianxiangzhang.github.io/portfolio/",
   "name": "xianxiangzhangsportfolio",
   "version": "0.1.0",
   "private": true,
@@ -31,10 +31,10 @@
     "nth-check": ">=2.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b page -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",

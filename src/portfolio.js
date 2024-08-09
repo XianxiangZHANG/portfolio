@@ -23,7 +23,7 @@ const greeting = {
   username: "Xianxiang Zhang",
   title: "Hi all, I'm Xianxiang",
   subTitle: emoji(
-    "A passionate fresh graduate 🚀 with experience using Python, C++ and other programming languages and frameworks like Django, Angular, etc."
+    "A passionate data/software engineer 🚀 with experience using Python, C, C++, C# and other programming languages and frameworks like Django, Angular, etc."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1fhURw-JGravOlrXTR2Ow_L5dZ8pTLWYI/view?usp=sharing", // Set to empty to hide the button
@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A STUDENT EXPLORING THE FIELD OF COMPUTER SCIENCE.",
+  subTitle: "A DEVELOPER EXPLORING THE FIELD OF COMPUTER SCIENCE.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -122,7 +122,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -141,7 +141,6 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -187,12 +186,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME PROJECTS I EXPERIRNCED IN UNIVERSITY",
+  subtitle: "SOME PROJECTS I EXPERIRNCED",
   projects: [
     {
       
       projectName: "Leibniz Manuscript Detection and Segmentation",
-      projectDesc: "09/2023 - 02/2024 - Polytech Nantes, France. Our project, conducted by the IPI team at LS2N in collaboration with the SPHERE Paris Diderot laboratory, aims to detect and segment mathematical expressions in Leibniz's manuscripts. We utilize a deep convolutional neural network tailored for this task. Due to limited original data, we employed data augmentation techniques, generating 300 artificial images to enhance our dataset. Our model, trained on these images, achieved an average precision of 60% on a separate evaluation corpus. This research highlights the technical challenges in analyzing ancient manuscripts, especially for mathematical content.",
+      projectDesc: "Our project aims to detect and segment mathematical expressions in Leibniz's manuscripts. We generated 300 artificial images through data augmentation to expand the dataset and used a deep convolutional neural network to train the model.",
       footerLink: [
         {
           name: "Source code",
@@ -204,7 +203,7 @@ const bigProjects = {
     {
       
       projectName: "The digital logbook for DIVANUM",
-      projectDesc: "09/2022 - 05/2023 - Polytech Nantes, France. The goal of this project is to design and implement a health data recording website for senior citizens. As a front-end developer and server administrator, I primarily worked with Angular, HTML, and CSS to implement the front-end display of various interfaces. Additionally, I configured Google Cloud Platform to create virtual machine instances and set up storage solutions.",
+      projectDesc: "Our project aims to design a health data recording website for the elderly. This will make it easier for the elderly to record their own health information and for health institutions to query user information.",
       footerLink: [
         {
           name: "Source code",
@@ -215,7 +214,7 @@ const bigProjects = {
     {
       
       projectName: "Environmental protection publicity website",
-      projectDesc: "01/2023 - 03/2023 - Polytech Nantes, France. The main purpose of this project is to promote environmental protection, especially the theme of carbon cycle. We worked with students from the art school to complete this project. They designed a beautiful interface, and we implemented these designs into a fully functional website using the Vue framework. Through this collaboration, we not only ensured the visual appeal of the website, but also ensured the efficiency and stability of its technical implementation, providing a powerful platform for the promotion of environmental protection.",
+      projectDesc: "The project aims to promote environmental protection through a website, with a special focus on the carbon cycle.",
       footerLink: [
         {
           name: "Source code",
@@ -377,9 +376,9 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
+  workExperiences,
   educationInfo,
   techStack,
-  workExperiences,
   openSource,
   bigProjects,
   achievementSection,
