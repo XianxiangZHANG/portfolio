@@ -23,7 +23,7 @@ const greeting = {
   username: "Xianxiang Zhang",
   title: "Hi all, I'm Xianxiang",
   subTitle: emoji(
-    "A passionate data/software engineer 🚀 with experience using Python, C, C++, C# and other programming languages and frameworks like Django, Angular, etc."
+    "A passionate data/software engineer 🚀 with experience using Python, C, C++, C# and other programming languages and frameworks like Django, Angular, etc. And worked as an ABAPer for 1 year in INOSSEM(France)."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1fhURw-JGravOlrXTR2Ow_L5dZ8pTLWYI/view?usp=sharing", // Set to empty to hide the button
@@ -47,15 +47,13 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A DEVELOPER EXPLORING THE FIELD OF COMPUTER SCIENCE.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Design and develop a suitable database structure"),
-    emoji(
-      "⚡ Integration of third party services such as Google Cloud Platform"
-    )
+    emoji("⚡ Integration of third party services such as Google Cloud Platform"),
+    emoji("⚡ Develop custom features in SAP using ABAP"),
+    emoji("⚡ Work on SAP system migration and data handling"),
+    emoji("⚡ Perform testing and debugging in SAP projects")
   ],
-
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
@@ -91,6 +89,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "microsoft office",
       fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "SAP",
+      fontAwesomeClassname: "fab fa-database"
+    },
+    {
+      skillName: "PGO+",
+      fontAwesomeClassname: "fab fa-microchip"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -123,6 +129,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Developer",
+      company: "INOSSEM",
+      companylogo: require("./assets/images/logo_inossem.jpg"),
+      date: "October 2024 – Now",
+      desc: "SAP ABAP developer involved in custom development, system migration, and project testing at Inossem.",
+      descBullets: [
+        "Develop custom features in SAP using ABAP",
+        "Work on SAP system migration and data handling",
+        "Perform testing and debugging in SAP projects",
+        "Monitor and upgrade PGO+ processes",
+      ]
+    },
+    {
       role: "Software Engineer(Intern)",
       company: "Gradel Light Weight",
       companylogo: require("./assets/images/logo_gradel.png"),
@@ -140,7 +159,7 @@ const workExperiences = {
       company: "LS2N",
       companylogo: require("./assets/images/logo_ls2n.png"),
       date: "May 2023 – September 2023",
-      desc: "I interned at LS2N for four months and was integrated into the Bayesian network project of the laboratory. I wrote unit test codes for the project's functions and successfully configured CI/CD scripts to demonstrate unit test code coverage and code.",
+      desc: "I interned at LS2N for four months, contributing to a Bayesian network project by enhancing testing infrastructure and development workflows.",
       descBullets: [
         "Created the Gitlab Wiki Documentation.",
         "Created new functions to deal with the images.",
@@ -149,6 +168,7 @@ const workExperiences = {
         "Implemented Gitlab Pages configuration to display code coverage and documentation.",
       ]
     },
+    
   ]
 };
 
@@ -353,7 +373,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
