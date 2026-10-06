@@ -23,10 +23,10 @@ const greeting = {
   username: "Xianxiang Zhang",
   title: "Hi all, I'm Xianxiang",
   subTitle: emoji(
-    "A passionate data/software engineer 🚀 with experience using Python, C, C++, C# and other programming languages and frameworks like Django, Angular, etc. And worked as an ABAPer for 1 year in INOSSEM(France)."
+    "A passionate SAP & Integration Developer 🚀 with a strong software engineering background. Experienced in SAP ECC, ABAP, BAPI, RFC, IDoc, WMS integration, Python, Django, Groovy and REST APIs. Currently working at INOSSEM in France on SAP integration and logistics solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1fhURw-JGravOlrXTR2Ow_L5dZ8pTLWYI/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1R-LfDnkp2k47tDIHd-eJeYQFmRmrPSwJ/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -45,14 +45,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A DEVELOPER EXPLORING THE FIELD OF COMPUTER SCIENCE.",
+  subTitle: "BUILDING RELIABLE SAP, INTEGRATION AND BACKEND SOLUTIONS.",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Design and develop a suitable database structure"),
-    emoji("⚡ Integration of third party services such as Google Cloud Platform"),
-    emoji("⚡ Develop custom features in SAP using ABAP"),
-    emoji("⚡ Work on SAP system migration and data handling"),
-    emoji("⚡ Perform testing and debugging in SAP projects")
+    emoji("⚡ Develop SAP solutions with ABAP, BAPI, RFC and IDoc"),
+    emoji("⚡ Build SAP–WMS and third-party system integrations"),
+    emoji("⚡ Develop backend APIs and data mappings with Groovy, FreeMarker and REST"),
+    emoji("⚡ Analyze and resolve complex integration and system issues"),
+    emoji("⚡ Test, debug and support applications across multiple environments")
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -129,16 +128,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Developer",
+      role: "SAP / Integration Developer",
       company: "INOSSEM",
       companylogo: require("./assets/images/logo_inossem.jpg"),
-      date: "October 2024 – Now",
-      desc: "SAP ABAP developer involved in custom development, system migration, and project testing at Inossem.",
+      date: "October 2024 – Present",
+      desc: "SAP and integration developer working on SAP ECC, WMS integration, interface development and business process automation at INOSSEM.",
       descBullets: [
-        "Develop custom features in SAP using ABAP",
-        "Work on SAP system migration and data handling",
-        "Perform testing and debugging in SAP projects",
-        "Monitor and upgrade PGO+ processes",
+        "Develop and enhance SAP solutions using ABAP, BAPI, RFC, IDoc, ALV and Smart Forms",
+        "Design and maintain SAP–WMS integrations for deliveries, goods movements, inventory and batch processes",
+        "Develop and support PGO+ interfaces and data mappings using Groovy, FreeMarker and REST APIs",
+        "Troubleshoot integration issues involving SAP document flows, HTTP APIs and system connectivity",
+        "Perform testing, debugging and technical support across DEV, QAS and production environments",
+        "Contribute to PGO+ migration, deployment and process optimization"
       ]
     },
     {
